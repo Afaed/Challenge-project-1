@@ -2,8 +2,7 @@
     --primarycolor: #d9d9d9;
     --secondarycolor: #ffffff;
     --backgroundcolor: #0072bb;
-
-
+    --marginright: 20px;
 }
 
 * {
@@ -34,7 +33,7 @@ body {
 
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: var(--marginright);
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -62,7 +61,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/Users/jchoy/Documents/projects/CHALLENGE-PROJECT-01/assets/images/");
+    background-image: url("/Users/jchoy/Documents/projects/CHALLENGE-PROJECT-01/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -84,7 +83,7 @@ p {
 }
 
 .benefits {
-    margin-right: 20px;
+    margin-right: var(--marginright);
     padding: 20px;
     clear: both;
     float: right;
@@ -105,7 +104,7 @@ p {
     text-align: center;
 }
 
-.benefit-lead img, .benefit-cost img,.benefit-cost img {
+.benefit-lead img, .benefit-cost img,.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -117,7 +116,7 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--backgroundcolor);
-    color: var(--var(--secondarycolor));
+    color: var(--secondarycolor);
 }
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
